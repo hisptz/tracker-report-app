@@ -3,23 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ngrx/core": "^1.2.0",
-    "@ngrx/store": "^6.1.0",
     "http-proxy-middleware": "^0.19.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
     "react-scripts": "2.0.3",
     "redux": "^4.0.0",
-    "redux-logger": "^3.0.6",
-    "redux-observable": "^1.0.0",
-    "redux-thunk": "^2.3.0",
-    "rxjs": "^6.3.3"
+    "redux-logger": "^3.0.6"
   },
   "scripts": {
     "flow": "flow",
-    "start": "REACT_APP_VERSION=$npm_package_version react-scripts start",
-    "build": "REACT_APP_VERSION=$npm_package_version react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
