@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/hisptz/tracker-report-app.svg?branch=develop)](https://travis-ci.org/hisptz/tracker-report-app)
 [![Dependencies Status](https://david-dm.org/hisptz/tracker-report-app/status.svg?style=flat-square)](https://david-dm.org/hisptz/tracker-report-app)
 
-A representation of an envelope(or payload) which carries disaster notifications(or warning) from source(s) to audience(s).
+A DHIS2 tracker Report app to export event and enrollement data.
 
 ## Requirements
 
@@ -16,43 +16,21 @@ A representation of an envelope(or payload) which carries disaster notifications
 npm install
 ```
 
-or
-
-```
-yarn install
-```
-
 ## Usage
 
 ```js
-npm start or yarn start
+npm start
 ```
-
-## References
-
--
 
 ## Testing
 
 - Clone this repository
 
-- Install all development dependencies
+- Install all development dependencies `npm install`
 
-```sh
-npm install
-```
+- Run example `npm run start`
 
-- Run example
-
-```sh
-npm run start
-```
-
-- Then run test
-
-```sh
-npm test
-```
+- Then run test `npm test`
 
 ## Contribute
 
