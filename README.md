@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.org/hisptz/tracker-report-app.svg?branch=develop)](https://travis-ci.org/hisptz/tracker-report-app)
 [![Dependencies Status](https://david-dm.org/hisptz/tracker-report-app/status.svg?style=flat-square)](https://david-dm.org/hisptz/tracker-report-app)
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/hisptz/tracker-report-app/tree/develop)
 
 A representation of an envelope(or payload) which carries disaster notifications(or warning) from source(s) to audience(s).
 
