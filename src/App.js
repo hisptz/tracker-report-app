@@ -1,42 +1,27 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-
-import { simpleAction } from './actions/simpleAction'
-import logo from './logo.svg';
+import { startupDataLoad } from './store/actions';
 import './App.css';
 
-
 class App extends Component {
-
-simpleAction = (event) => {
-  this.props.simpleAction();
- }
   render() {
+    const { startupDataLoad } = this.props;
     return (
       <div className="App">
-
-
-       <button onClick={this.simpleAction}>Test redux action</button>
-       <pre>
-          {
-            JSON.stringify(this.props)
-          }
-       </pre>
+        <button onClick={startupDataLoad}>Test redux action</button>
       </div>
-
-
     );
-
   }
 }
 
-const mapStateToProps = state => ({
-  ...state
- });
- const mapDispatchToProps = dispatch => ({
-  simpleAction: () => dispatch(simpleAction())
- })
+const mapStateToProps = ({ init }) => ({
+  ...init
+});
+const mapDispatchToProps = dispatch => ({
+  startupDataLoad
+});
 
-
-
- export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(App);
