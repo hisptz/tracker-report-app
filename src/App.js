@@ -14,7 +14,7 @@ simpleAction = (event) => {
   render() {
     return (
       <div className="App">
-  
+
 
        <button onClick={this.simpleAction}>Test redux action</button>
        <pre>
