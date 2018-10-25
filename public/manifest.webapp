@@ -1,0 +1,23 @@
+{
+  "launch_path": "index.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": ".."
+    }
+  },
+  "appType": "APP",
+  "name": "Tracker Report App",
+  "version": "0.1.0",
+  "description": "Tracker Report app that list and show event trends",
+  "icons": {
+    "48": "icon.png"
+  },
+  "developer": {
+    "name": "HiSP Tanzania"
+  },
+  "dhis2": {
+    "apiVersion": "30"
+  },
+  "manifest_generated_at": "Thu Oct 25 2018 06:09:11 GMT+0300 (East Africa Time)"
+}
