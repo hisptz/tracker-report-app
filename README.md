@@ -7,8 +7,8 @@ A DHIS2 tracker Report app to export event and enrollement data.
 
 ## Requirements
 
-- [NodeJS v8.11.1+](https://nodejs.org)
-- [Npm v5.6.0+](https://www.npmjs.com/)
+-   [NodeJS v8.11.1+](https://nodejs.org)
+-   [Npm v5.6.0+](https://www.npmjs.com/)
 
 ## Installation
 
@@ -24,13 +24,13 @@ npm start
 
 ## Testing
 
-- Clone this repository
+-   Clone this repository
 
-- Install all development dependencies `npm install`
+-   Install all development dependencies `npm install`
 
-- Run example `npm run start`
+-   Run example `npm run start`
 
-- Then run test `npm test`
+-   Then run test `npm test`
 
 ## Contribute
 
