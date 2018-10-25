@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { startupDataLoad } from './store/actions'
+import { startupDataLoad } from './actions'
 import './App.css'
 
 class App extends Component {
