@@ -1,12 +1,12 @@
 import { entryActionTypes } from '../actions';
 
-const initialState = {
+export const DEFAULT_STATE = {
   loading: false,
   loaded: false,
   headerBarHeight: null
 };
 
-export function entryReducer(state = initialState, action) {
+export function reducer(state = DEFAULT_STATE, action) {
   switch (action.type) {
     case entryActionTypes.STARTUP_DATA_LOAD:
       return {
