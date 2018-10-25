@@ -1,18 +1,23 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
 import App from './App'
+import UI from 'ui/core/UI'
+
 import * as serviceWorker from './serviceWorker'
 
 import { Provider } from 'react-redux'
 import { store } from './configureStore'
+
+import i18n from './locales'
 
 const rootElement = document.querySelector('#root')
 
 if (rootElement) {
     ReactDOM.render(
         <Provider store={store}>
-            <App />
+            <UI theme="blue">
+                <App />
+            </UI>
         </Provider>,
         rootElement
     )

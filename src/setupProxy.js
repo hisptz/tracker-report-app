@@ -1,4 +1,5 @@
 const proxy = require('http-proxy-middleware')
+const fs = require('fs')
 
 const localhostProxy = proxy({
     target: 'http://localhost:8085/',

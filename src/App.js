@@ -1,14 +1,18 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { startupDataLoad } from './actions'
+import CircularProgress from 'ui/core/CircularProgress'
 import './App.css'
 
 class App extends Component {
     render() {
-        const { startupDataLoad } = this.props
+        const props_ = {
+            overlay: true,
+            size: 'large',
+        }
         return (
             <div className="App">
-                <button onClick={startupDataLoad}>Test redux action</button>
+                <CircularProgress {...props_} />
             </div>
         )
     }
