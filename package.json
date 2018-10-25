@@ -17,10 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "eject": "react-scripts eject",
+    "format": "code-style"
   },
   "browserslist": [
     ">0.2%",
@@ -29,9 +27,17 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@dhis2/code-style": "^1.4.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "flow-bin": "^0.82.0",
+    "husky": "^1.1.2",
     "react-test-renderer": "^16.5.2"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commit-style",
+      "pre-commit": "npm run format"
+    }
   }
 }

@@ -1,27 +1,27 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { startupDataLoad } from './store/actions';
-import './App.css';
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { startupDataLoad } from './store/actions'
+import './App.css'
 
 class App extends Component {
-  render() {
-    const { startupDataLoad } = this.props;
-    return (
-      <div className="App">
-        <button onClick={startupDataLoad}>Test redux action</button>
-      </div>
-    );
-  }
+    render() {
+        const { startupDataLoad } = this.props
+        return (
+            <div className="App">
+                <button onClick={startupDataLoad}>Test redux action</button>
+            </div>
+        )
+    }
 }
 
 const mapStateToProps = ({ init }) => ({
-  ...init
-});
+    ...init,
+})
 const mapDispatchToProps = dispatch => ({
-  startupDataLoad
-});
+    startupDataLoad,
+})
 
 export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(App);
+    mapStateToProps,
+    mapDispatchToProps
+)(App)
