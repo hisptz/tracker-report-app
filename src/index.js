@@ -2,7 +2,7 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import App from './components/App'
 import UI from 'ui/core/UI'
 
 import * as serviceWorker from './serviceWorker'
@@ -56,6 +56,8 @@ const initializeApp = async () => {
     const d2 = await d2Init({
         baseUrl: config.baseUrl,
     })
+
+    console.log(d2)
 
     renderApp(baseUrl, d2, userSettings)
 }
