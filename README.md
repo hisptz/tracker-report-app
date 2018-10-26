@@ -1,7 +1,7 @@
 # Tracker Report App.
 
 [![Build Status](https://travis-ci.org/hisptz/tracker-report-app.svg?branch=develop)](https://travis-ci.org/hisptz/tracker-report-app)
-[![Dependencies Status](https://david-dm.org/hisptz/tracker-report-app/status.svg?style=flat-square)](https://david-dm.org/hisptz/tracker-report-app) [![Greenkeeper badge](https://badges.greenkeeper.io/hisptz/tracker-report-app.svg)](https://greenkeeper.io/)![Maintainability](https://api.codeclimate.com/v1/badges/38148fce7befa8dfa2f4/maintainability)](https://codeclimate.com/github/hisptz/tracker-report-app/maintainability)[![Test Coverage](https://api.codeclimate.com/v1/badges/38148fce7befa8dfa2f4/test_coverage)](https://codeclimate.com/github/hisptz/tracker-report-app/test_coverage)
+[![Dependencies Status](https://david-dm.org/hisptz/tracker-report-app/status.svg?style=flat-square)](https://david-dm.org/hisptz/tracker-report-app) [![Greenkeeper badge](https://badges.greenkeeper.io/hisptz/tracker-report-app.svg)](https://greenkeeper.io/)![Maintainability](https://api.codeclimate.com/v1/badges/38148fce7befa8dfa2f4/maintainability)](https://codeclimate.com/github/hisptz/tracker-report-app/maintainability)[![Test Coverage](https://api.codeclimate.com/v1/badges/38148fce7befa8dfa2f4/test_coverage)(https://codeclimate.com/github/hisptz/tracker-report-app/test_coverage)
 
 A DHIS2 tracker Report app to export event and enrollement data.
 
