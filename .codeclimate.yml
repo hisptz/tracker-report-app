@@ -1,2 +1,6 @@
 exclude_patterns:
     - 'scripts/'
+    - 'config/'
+    - 'public/'
+    - 'i18n/'
+    - 'src/serviceWorker.js'
