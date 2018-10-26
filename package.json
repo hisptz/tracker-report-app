@@ -33,7 +33,7 @@
     "@dhis2/code-style": "MAKOSCAFEE/code-style#master",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
-    "flow-bin": "^0.82.0",
+    "flow-bin": "^0.84.0",
     "husky": "^1.1.2",
     "react-test-renderer": "^16.5.2"
   },
