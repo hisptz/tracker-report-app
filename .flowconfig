@@ -1,11 +1,30 @@
 [ignore]
+.*/scripts/.*
+.*/coverage/.*
+.*/node_modules/.*
+.*/build/.*
+.*/dist/.*
+.*/static/.*
+<PROJECT_ROOT>/src/fb/plugins/relaydevtools/relay-devtools/DevtoolsUI.js$
+.*/website/.*
+
+[libs]
+flow-typed
+
+[options]
+esproposal.export_star_as=enable
+esproposal.optional_chaining=enable
+module.use_strict=true
+emoji=true
+all=true
+include_warnings=true
+module.name_mapper='flipper' -> '<PROJECT_ROOT>/src/index.js'
+
+suppress_type=$FlowFixMe
 
 [include]
 
-[libs]
-
 [lints]
 
-[options]
-
 [strict]
+

@@ -4,3 +4,4 @@ exclude_patterns:
     - 'public/'
     - 'i18n/'
     - 'src/serviceWorker.js'
+    - '**/__test__/'
