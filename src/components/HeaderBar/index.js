@@ -1,7 +1,7 @@
 import React from 'react'
-import HeaderBar from 'ui/widgets/HeaderBar/HeaderBar.Component'
+import HeaderBar from 'ui/widgets/HeaderBar'
 import { Col } from '../../helpers'
-import PropTypes from 'prop-types'
+import i18n from '@dhis2/d2-i18n'
 
 export class HeaderBarContainer extends React.Component {
     static id = 'headerbar'
@@ -9,18 +9,8 @@ export class HeaderBarContainer extends React.Component {
     render() {
         return (
             <Col style={{ marginBottom: 250 }}>
-                <HeaderBar {...this.props} />
+                <HeaderBar appName={i18n.t('Tracker Report App')} />
             </Col>
         )
     }
-}
-
-HeaderBarContainer.propTypes = {
-    baseUrl: PropTypes.string,
-    instanceName: PropTypes.string,
-    appName: PropTypes.string,
-    profile: PropTypes.object,
-    apps: PropTypes.array,
-    messages: PropTypes.object,
-    interpretations: PropTypes.object,
 }

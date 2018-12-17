@@ -3,7 +3,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './components/App'
-import UI from 'ui/core/UI'
+import './index.css'
 
 import * as serviceWorker from './serviceWorker'
 
@@ -29,9 +29,7 @@ const renderApp = (baseUrl, d2, userSettings) => {
     const props = { baseUrl, d2, userSettings }
     ReactDOM.render(
         <Provider store={store}>
-            <UI theme="blue">
-                <App {...props} />
-            </UI>
+            <App {...props} />
         </Provider>,
         rootElement
     )

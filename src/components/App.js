@@ -6,7 +6,6 @@ import i18n from '@dhis2/d2-i18n'
 import './App.css'
 import PropTypes from 'prop-types'
 import { HeaderBarContainer } from './HeaderBar'
-import { getProps } from '../helpers/helper.constants'
 
 class App extends Component {
     componentDidMount = async () => {
@@ -33,7 +32,7 @@ class App extends Component {
         return (
             <div className="App">
                 {loaded ? (
-                    <HeaderBarContainer {...getProps()} />
+                    <HeaderBarContainer />
                 ) : (
                     <CircularProgress {...circularProps} />
                 )}
