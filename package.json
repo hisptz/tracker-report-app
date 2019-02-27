@@ -64,7 +64,7 @@
     "webpack": "4.27.0",
     "webpack-dev-server": "3.1.9",
     "webpack-manifest-plugin": "2.0.4",
-    "workbox-webpack-plugin": "3.6.2"
+    "workbox-webpack-plugin": "4.0.0"
   },
   "scripts": {
     "extract-pot": "d2-i18n-extract -p src/ -o i18n/",
