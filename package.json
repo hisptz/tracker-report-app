@@ -81,7 +81,7 @@
     "@dhis2/code-style": "MAKOSCAFEE/code-style#master",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
-    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-prettier": "^6.1.0",
     "flow-bin": "^0.94.0",
     "husky": "^1.1.2",
     "react-test-renderer": "^16.5.2"
