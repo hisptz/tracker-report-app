@@ -60,7 +60,7 @@
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "1.2.3",
     "ui": "github:d2-ci/ui",
-    "url-loader": "1.1.2",
+    "url-loader": "2.3.0",
     "webpack": "4.29.6",
     "webpack-dev-server": "3.2.1",
     "webpack-manifest-plugin": "2.0.4",
