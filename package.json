@@ -7,7 +7,7 @@
     "@dhis2/d2-i18n": "^1.0.4",
     "@dhis2/d2-i18n-extract": "^1.0.7",
     "@dhis2/d2-i18n-generate": "^1.0.19",
-    "@svgr/webpack": "4.1.0",
+    "@svgr/webpack": "5.3.1",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.1",
     "babel-jest": "24.1.0",
